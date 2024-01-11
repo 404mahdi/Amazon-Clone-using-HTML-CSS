@@ -316,6 +316,12 @@ body {
 
 /* Footer */
 
+footer {
+    position: relative;
+    top: -35vh;
+
+}
+
 .footer-panel-1{
     height: 49px;
     background-color: #37475a;
@@ -377,4 +383,11 @@ ul a {
 a {
     text-decoration: none;
     color: aliceblue;
+}
+
+.fix-error {
+    height: 35vh;
+    width: 100%;
+    background-color: #131a22;
+    position: absolute;
 }
