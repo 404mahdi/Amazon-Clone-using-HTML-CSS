@@ -89,14 +89,22 @@ body {
     height: 66%;
     width: 55%;
     border-radius: 4px;
+    border: 1px solid transparent;
     
 }
+
+.nav-search:focus-within {
+    border: 3px solid #febd69;
+    border-radius: 6px;
+}
+
 
 .search-select {
     background-color: #f3f3f3;
     width: 52px;
     border-radius: 4px 0px 0px 4px;
     border: none;
+    border-right: .2px solid rgb(199, 199, 199);
     text-align: center;
 }
 
@@ -127,6 +135,11 @@ body {
     padding-left: 10px;
     font-size: 1rem;
 }
+
+.search-body:focus {
+    outline: none;
+}
+
 
 /* Language Bar */
 
@@ -203,15 +216,23 @@ body {
 .panel-options {
     display: flex;
     align-items: center;
-    gap: 20px;
     width: 40%;
 }
 
 .panel-all {
-    padding-left: 10px;
-    padding-right: 10px;
     display: flex;
     align-items: center;
+
+}
+
+.border2 {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.border2:hover {
+    border: 1px solid #f5f5f5;
 }
 
 .all {
